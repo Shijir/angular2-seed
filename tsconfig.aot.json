@@ -15,14 +15,13 @@
     ],
     "lib": ["es6", "dom"]
   },
-  "include": [
-    "./src/**/*.module.ts",
-    "./src/*.d.ts"
-  ],
   "angularCompilerOptions": {
     "debug": false
   },
   "compileOnSave": false,
   "buildOnSave": false,
+  "exclude": [
+    "node_modules"
+  ],
   "atom": { "rewriteTsconfig": false }
 }
